@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra strategiczna</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body onload="NewView()">
+    <div class="Main-info">
+        <div class="Counter" id="Wood">Wood : </div>
+        <div class="Counter" id="Food">Food : </div>
+        <div class="Counter" id="Stone">Stone : </div>
+        <div class="Counter" id="Worker">Workers : </div>
+        <div class="Counter" id="Gold">Gold : </div>
+        <div class="Counter" id="Army">Knights : </div>
+        <div class="Counter" id="Cities">Captured Cities : </div>
+    </div>
+    <div class="Main-window">
+        <div class="first-column">
+            <div class="FC-one">
+                <button type="button" id="BtGoldAd" onclick="BtGoldAd()">+</button>
+                <button type="button" id="BtGold"><div id="GoldMiners">0</div>Goldminers</button>
+                <button type="button" id="BtGoldDe" onclick="BtGoldDe()">-</button>
+            </div>
+            <div class="FC-two">
+                
+                <button type="button" id="BtStoneAd" onclick="BtStoneAd()">+</button>
+                <button type="button" id="BtStone"><div id="StoneWorkers">0</div>Stone Workers</button>
+                <button type="button" id="BtStoneDe" onclick="BtStoneDe()">-</button>
+            </div>
+            <div class="FC-three">
+                <button type="button" id="BtWoodAd" onclick="BtWoodAd()">+</button>
+                <button type="button" id="BtWood"><div id="Carpenters">0</div>Carpenters</button>
+                <button type="button" id="BtWoodDe" onclick="BtWoodDe()">-</button>
+            </div>
+        </div>
+        <div class="second-column">
+            <div class="SC-one">
+                
+            </div>
+            <div class="SC-two">
+                <button type="button" id="BtWorkersAd" onclick="BtWorkerAd()">+</button>
+                <button type="button" id="BtWorkers"><div id="Workers">5</div> Workers</button>
+                
+            </div>
+            <div class="SC-three">
+                <button type="button" id="BtFoodAd" onclick="BtFoodAd()">+</button>
+                <button type="button" id="BtFood" onmouseover="BtFoodInfo()" ><div id="Farmers">0</div>Farmers</button>
+                <button type="button" id="BtFoodDe" onclick="BtFoodDe()">-</button>
+            </div>
+        </div>
+        <div class="third-column">
+            <div class="TC-one">
+                <button type="button" id="BtShipsAd" onclick="BtShipAd()">+</button>
+                <button type="button" id="BtShips"><div id="Ships">0</div>Ships</button>
+                <button type="button" id="BtShipsDe" onclick="BtShipsDe()">Send</button>
+            </div>
+            <div class="TC-two">
+                <button type="button" id="BtArmyAd" onclick="BtArmyAd()">+</button>
+                <button type="button" id="BtArmy"><div id="Knights">0</div>Knights</button>
+                
+            </div>
+            <div class="TC-three">
+                <button type="button" id="BtEndTurn" onclick="EndOfTurn()">End Turn</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="/Script.js"></script>
+</html>

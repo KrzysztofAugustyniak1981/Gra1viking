@@ -1,0 +1,143 @@
+body {
+    height: 720px;
+    width: 1280px;
+    background-color: black;
+    margin: auto;
+    margin-top: 40px;
+}
+.Main-info {
+    display: flex;
+    height: 60px;
+    width: 1280px;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+.Counter {
+    margin: auto;
+    font-size: large;
+    font-weight: 700;
+    color:teal;
+}
+.Main-window {
+    width: 1270px;
+    height: 660px;
+    background-color: darkgoldenrod;
+    columns: 3;
+    column-gap: 10px;
+    padding: 5px;
+}
+
+.first-column {
+    background-color: aqua;
+    width: 410px;
+    height: 650px;
+    padding: 3px;
+    text-align: center;
+    vertical-align: bottom;
+}
+.FC-one {
+    margin: auto;
+    margin-top: 3px;
+    background-color: wheat;
+    width: 405px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.FC-two {
+    margin: auto;
+    margin-top: 6px;
+    background-color: green;
+    width: 405px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.FC-three {
+    margin: auto;
+    margin-top: 6px;
+    background-color: black;
+    width: 405px;
+    height: 211px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.second-column {
+    background-color: aqua;
+    width: 410px;
+    height: 650px;
+    padding: 3px;
+}
+.SC-one {
+    margin: auto;
+    margin-top: 3px;
+    background-color: darkred;
+    width: 405px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.SC-two {
+    margin: auto;
+    margin-top: 6px;
+    background-color: darkgray;
+    width: 405px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.SC-three {
+    margin: auto;
+    margin-top: 6px;
+    background-color: darkkhaki;
+    width: 405px;
+    height: 211px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.third-column {
+    background-color: aqua;
+    width: 410px;
+    height: 650px;
+    padding: 3px;
+}
+.TC-one {
+    margin: auto;
+    margin-top: 3px;
+    background-color: blue;
+    width: 405px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.TC-two {
+    margin: auto;
+    margin-top: 6px;
+    background-color: blueviolet;
+    width: 405px;
+    height: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.TC-three {
+    margin: auto;
+    margin-top: 6px;
+    background-color: darkcyan;
+    width: 405px;
+    height: 211px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
